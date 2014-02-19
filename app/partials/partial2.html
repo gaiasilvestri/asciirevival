@@ -1,9 +1,11 @@
-<h1>This is where the gallery will appear.</h1>
-<p>
-  Showing of 'interpolate' filter:
-  {{ 'Current version is v%VERSION%.' | interpolate }}
-</p>
 
+<!-- Greeting Message-->
+<div ng-controller="MyCtrl2" id="greeting">
+  <h1> {{greeting}} </h1>
+  <h3> {{gallerysubtitle}} </h3>
+  {{ 'Current version is v%VERSION%.' | interpolate }}
+</div>
+<!-- Iframes for previews-->
 			<section id="preview1">
 			<iframe></iframe>
 			</section>

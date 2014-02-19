@@ -24,20 +24,20 @@
 </form>
  -->
 
-<div id="wrap">
+<div ng-controller="MyCtrl1" id="wrap">
 
 	<!-- Code Editors -->
 	<section id="code_editors">
 		<div id="html" class="code_box">
-			<h3>HTML</h3>
+			<h3>{{titlebox1}}</h3>
 			<textarea name="html"></textarea>
 		</div>
 		<div id="css" class="code_box">
-			<h3>CSS</h3>
+			<h3>{{titlebox2}}</h3>
 			<textarea name="css"></textarea>
 		</div>
 		<div id="js" class="code_box">
-			<h3>JavaScript</h3>
+			<h3>{{titlebox3}}</h3>
 			<textarea name="js"></textarea>
 		</div>
 	</section>

@@ -3,7 +3,7 @@
 body {
   padding-top: 5px;
 }
-
+/* Menu [Create | Gallery] */
 .menu {
   list-style: none;
   
@@ -33,7 +33,7 @@ body {
   padding: 0;
 }
 
-
+/* Create view1 */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -55,7 +55,8 @@ html, body {
   right:60%;
 }
 */
-/* Code Editors */
+
+/* Code Editors in Create view1 */
 
 #code_editors {
   position: absolute;
@@ -88,7 +89,7 @@ html, body {
   background: #F5F5F5;
 }
 
-/* Output Area */
+/* Output rendering iframe in Create view1 */
 #output {
   position: absolute;
   left: 40%; top: 7%; right: 0; bottom: 10%;
@@ -110,7 +111,17 @@ html, body {
   height:10%;
   background:transparent;
 }
+/* Gallery view2*/
+#greeting {
+  position: absolute;
+  left:30%;
+}
 
-
+/* iframe creations */
+#preview1 {
+  position: absolute;
+  left:20%;
+  top:20%;
+}
 
 
