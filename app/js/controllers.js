@@ -11,5 +11,4 @@ angular.module('myApp.controllers', []).
   .controller('MyCtrl2', ['$scope', function($scope) {
   	$scope.greeting = 'Welcome to the gallery!';
   	$scope.gallerysubtitle = 'Click on a creation to see the code in action.';
-
   }]);
